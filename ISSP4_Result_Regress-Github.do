@@ -20,7 +20,7 @@ cd "C:\Users\Administrator\OneDrive - HKUST\Supervision\LUO_ys\Intergen_xcountry
 
 **************************************************************************** 
 use "issp_religion_sample3_mz50.dta",clear
-
+//randomly selected 50% out of the original sample3 data
     xtset country pid
     xtdes
 
